@@ -41,6 +41,11 @@ public class Pedido {
         GregorianCalendar aux = new GregorianCalendar();
         if(tipoDeEntrega == 1 ) return true;
                 else return false;
+     /*GregorianCalendar aux = new GregorianCalendar();
+       int i = aux.compareTo(dataDeEntrega);
+       if(i == 1 ) return true;
+                else return false;
+*/
        
     }
      public String toString(){ 
